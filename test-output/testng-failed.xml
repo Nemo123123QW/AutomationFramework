@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practice.RetryAnalyserPractice">
+      <class name="organizationTests.createOrganizationWithIndustryTest">
         <methods>
-          <include name="analysePractice"/>
+          <include name="amConfig"/>
+          <include name="createOrgWithIndTest"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="acConfig"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
         </methods>
-      </class> <!-- Practice.RetryAnalyserPractice -->
+      </class> <!-- organizationTests.createOrganizationWithIndustryTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
